@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div class="divPadre">
+  <div class="logo"> 
+    <img src="./images/mailchimphoto.png" class="Mailchimp logo">
+  </div>
+  <main id="content">
+    <div class="titulo">
+        <h1>Welcome to Mailchimp</h1>
+        <p>Find your people. Engage your customers. Build your brand. Do it all 
+            with Mailchim's Marketing Platform. Already have an account? <a class="logIn" href="log in">Log in</a></p>
+    </div>
+    <form class="campos">
+        <div class="email">
+            <legend>Email</legend>
+            <input type="email" name="email">
+        </div>
+        <div class="username">
+            <legend>Username</legend>
+            <input type="text" name="username">
+        </div>
+        <div class="password">
+            <span><img src="./images/ojo.png" class="ojo">Show</span>
+            <legend>Password</legend>
+            <input type="password" name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" >
+        </div>
+    </form class="lista">
+        <ul class="izquierda">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+        </ul>
+        <ul class="derecha">
+            <li>One special character</li>
+            <li>8 characters minimum</li> 
+        </ul>
+    </form>
+    <div class="button">
+        <button class="signUp" type="submit">Sign Up</button>
+        <input class="checkbox" type="checkbox" <p class="spam">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</p></input>
+    </div>
+  <div class="politica">
+        <p>By clicking the "Sign Up" button, you are creating a Mailchip account, and you agree to Mailchimp's <a href="termsOfUse">Terms of Use</a> and <a href="privacyPolicy">Privacy Policy.</a></p>
+  </div>
+</main>
+</div>
+</body>
+</html>
