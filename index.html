@@ -10,9 +10,9 @@
 <body>
 <div class="divPadre">
   <div class="logo"> 
-    <img src="./images/mailchimphoto.png" class="Mailchimp logo">
+    <img src="./images/mailchimphoto.png" class="mailchimp-logo">
   </div>
-  <main id="content">
+  <main class="content">
     <div class="titulo">
         <h1>Welcome to Mailchimp</h1>
         <p>Find your people. Engage your customers. Build your brand. Do it all 
@@ -32,7 +32,8 @@
             <legend>Password</legend>
             <input type="password" name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" >
         </div>
-    </form class="lista">
+    </form>
+    <div class="lista">
         <ul class="izquierda">
             <li>One lowercase character</li>
             <li>One uppercase character</li>
@@ -42,15 +43,20 @@
             <li>One special character</li>
             <li>8 characters minimum</li> 
         </ul>
-    </form>
-    <div class="button">
-        <button class="signUp" type="submit">Sign Up</button>
-        <input class="checkbox" type="checkbox" <p class="spam">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</p></input>
     </div>
-  <div class="politica">
-        <p>By clicking the "Sign Up" button, you are creating a Mailchip account, and you agree to Mailchimp's <a href="termsOfUse">Terms of Use</a> and <a href="privacyPolicy">Privacy Policy.</a></p>
-  </div>
-</main>
+    <div class="registro">
+        <div class="boton-registro">
+            <button class="signUp" type="submit">Sign Up</button>
+        </div>
+        <div class="button-check">
+            <input class="checkbox" type="checkbox"></input>
+            <p class="spam">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</p>
+        </div>
+    </div>
+    <div class="politica">
+        <p class="policy">By clicking the "Sign Up" button, you are creating a Mailchip account, and you agree to Mailchimp's <a href="termsOfUse">Terms of Use</a> and <a href="privacyPolicy">Privacy Policy.</a></p>
+      </div>
+  </main>
 </div>
 </body>
 </html>
